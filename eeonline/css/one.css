@@ -1,0 +1,71 @@
+#table_13d5_0 {
+	font-size: 16px;
+    font-family: Tahoma;
+    width: 134px;
+    text-align: center;
+    width: 100%;
+	font-weight:bold;
+}
+#hellox {
+    font-size: 25px;
+}
+#table_13d5_0 a {
+    color: #054769;
+    text-decoration: none;
+}
+#table_13d5_0 a:hover {
+    color: red;
+}
+.console {
+  font-family:Courier;
+ color: #CCCCCC;
+  background: #000000;
+  border: 3px double #CCCCCC;
+  padding: 10px;
+  text-align:left;
+  margin:5px;
+}
+
+.dloads a:hover {
+    color: red;
+}
+.dloads {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    margin: 0px auto;
+    font-size: 120%;
+}
+.dloads th,
+.dloads td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+.dloads th {
+    background-color: #0A466B;
+    color: white;
+}
+
+.left-bulletx {
+    font-weight: bold;
+    font-family: courier;
+    font-size: 120%;
+    margin-left: 20px;
+	padding:10px 0px 10px 14px;
+	background:url(https://s15.postimg.org/vnlesofnv/bullet1.jpg) left top no-repeat;
+	background-position:0px 13px;
+	width:550px;
+}
+
+.green {
+    color: #228822;
+}
+.srno {
+    width: 25px;
+}
+
+.punk{color:#2b55ad;font-weight:bold;}

@@ -1,0 +1,88 @@
+body{margin:0 auto; padding:0px; background:url(https://s15.postimg.org/883hnbvwr/bg-seamless.jpg) fixed; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#2f1a1a;}
+
+p {margin:0px; padding:0px;}
+
+hr {background-color: #808080;}
+
+.fbiframe{border:0px;margin:0px;width:630px;height:350px;}
+
+a{color:#092AAE; text-decoration:underline;}
+
+a:hover{color:#092AAE; text-decoration:none;}
+
+.copyright{border:0px; height:1px; width:1px;}
+
+#beast{width:926px; margin:0 auto; padding:0px;}
+
+header{width:926px; float:left;}
+
+#banner{width:926px; float:left; background:url(https://s15.postimg.org/d2x6llu8b/mainlogo.jpg) top no-repeat; height:200px;color:#fff; }
+
+#banner-main{margin-left: 30px;margin-top: 50px;float:left;background:url('https://s27.postimg.org/4c9blespv/haha.png');width:293px;height:110px;background-size: contain;}
+
+#banner-clan{height: 172px;width:523px;float: right;margin-top: 30px;background:url('https://s4.postimg.org/rtm0k5pfh/banner_Top2.png');background-size: contain;}
+
+#main-nav{width:896px; float:left; padding:10px 15px 0px; height:29px; background:url(https://s15.postimg.org/uk5vugkej/nav-bg.jpg) top repeat-x;}
+
+#main-nav ul{margin:0px; padding:0px; list-style-type:none; float:left; display:inline;}
+
+#main-nav ul li{float:left; padding:0px 19px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFF; line-height:18px; border-right:1px solid #081e2c;}
+
+#main-nav ul li a{float:left; padding:0px 22px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFF; line-height:18px; text-decoration:none;}
+
+#main-nav ul li a:hover{float:left; padding:0px 22px; text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#0aa8f9; line-height:18px; text-decoration:none;}
+
+
+.mid-wraper-top{width:926px;margin:0 auto; padding:0px; float:left; overflow:hidden;background:rgba(240,240,240,0.6);}
+
+main {width:640px; float:left;}
+
+.mid-wraper-bttm{width:926px; float:left;}
+
+.mid-left-container{width:618px; float:left; padding:20px 0px 0px 15px;}
+
+h1{background:url(https://s15.postimg.org/552rjygy3/divider-1.jpg) bottom no-repeat; display:block; width:603px; margin:0px 0px 10px 0px; padding:0px 0px 10px 15px; font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#2f1a1a; font-weight:normal;}
+
+.yellow-heading{color:#c79214; font-size:18px;}
+
+.left-bullet{padding:10px 0px 10px 14px; margin:0px; background:url(https://s15.postimg.org/vnlesofnv/bullet1.jpg) left top no-repeat;  background-position:0px 13px; width:550px;}
+
+.inner-left{width:308px; float:left;}
+
+.inner-right{width:300px; float:right;}
+
+.read-more{float:right; color:#333333; text-decoration:none;}
+
+.read-more:hover{float:right; color:#333333; text-decoration:none;}
+
+.right-container{width:275px; float:left; color:#fff;background:#054769;height:inherit;}
+
+.right-container-top{width:245px; background:#ced6da url(https://s15.postimg.org/l0w70zwwb/right-grey.jpg) bottom no-repeat; float:left; padding:10px 15px;}
+
+h3{background:url(https://s15.postimg.org/5yfdckmyv/divider-4.jpg) bottom no-repeat; display:block; width:224px; margin:0px 0px 10px 0px; padding:0px 0px 8px 10px; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#2f1a1a; font-weight:normal;}
+
+.right-container-top ul{margin:0px; padding:0px; list-style-type:none; display:block; float:left;}
+
+.right-container-top ul li{float:left; background:url(https://s15.postimg.org/jzrcy4qiz/bullet-2.jpg) left top no-repeat; color:#866008; width:225px; padding:5px 0px 5px 15px; margin:6px 0px 6px 10px; background-position:0px 9px;}
+
+.right-container-top ul li a{float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#2f1a1a; text-decoration:none;}
+
+.right-container-top ul li a:hover{float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#2f1a1a; text-decoration: underline;}
+
+.right-container-dwn{width:245px; float:left; padding:10px 15px; }
+
+h4{background:url(https://s15.postimg.org/f4xnzus7f/divider-3.jpg) bottom no-repeat; display:block; width:224px; margin:0px 0px 10px 0px; padding:0px 0px 8px 10px; font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#fff; font-weight:normal;}
+
+.read-more-right{float:right; color:#fff; text-decoration:none;}
+
+.read-more-right:hover{float:right; color:#fff; text-decoration:none;}
+
+footer{width:886px; float:left; padding:20px; color:#fff;background:#002b41; }
+
+.footer-side{width:420px; float:left; padding-left:10px;}
+
+.footer-right{width:280px; float:right; padding-right:10px; text-align:right;}
+
+footer a {color: #FFFFFF; text-decoration: none; padding:0px 4px;}
+
+footer a:hover {color:#0aacff; text-decoration: none;}

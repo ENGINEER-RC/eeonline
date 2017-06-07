@@ -1,0 +1,5 @@
+Options +Indexes
+ErrorDocument 404 "<center><h1>404 Page Not Found</h1><hr><a href='./'>Go To Homepage</a></center>"
+RewriteEngine on
+RewriteRule ^(.*).html$ ./index.php?url=$1
+RewriteRule ^sitemap.xml$ ./sitemap.php
