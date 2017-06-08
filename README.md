@@ -1,5 +1,5 @@
 # Empire Earth Online
- Website: [ee.theroyalchampions.in](http://ee.theroyalchampions.in)
+##### Website: [ee.theroyalchampions.in](http://ee.theroyalchampions.in)
 ***
 ## Introduction
  This Repository is a replication of the contents on the Empire Earth Downloads Website.
@@ -26,12 +26,12 @@
  - No user should be tracked, hence we don't use cookies.
  - Least 3rd part party javascripts must be use, only from trusted vendors. ( e.g google translate )
  - Any links that are added to the website must not contain redirects.
- - Any download links added to the website must not be uploaded on servers which ask you to view ads or pay to download.
+ - Any link to downloads added on the website must not be uploaded on servers which ask you to view ads or pay to download.
 
 ***
 ## Documentation
 #### Prerequisites
->Unpak all the contents of the /eeonline into the root folder of Apache-PHP based client.
+>Unpack all the contents of the /eeonline into the root folder of Apache-PHP based client.
 
 >Use [Xampp](https://www.apachefriends.org) for people Running on Windows OS. 
 
@@ -52,8 +52,9 @@
 ```
  - This is an example of how your content file must look.
  - Everything between the curly braces is JSON.
->The JSON data is important metadata for Search engine crawlers to index the file 
->Also to create an impression while sharing the pages on Social Media
+>The JSON data is important metadata for Search engine crawlers to index the file.
+
+>Also to create an impression while sharing the pages on Social Media.
 
  - **image** is the reference to the image that will be displayed when your page is shared on Facebook.
  - **css** it is the reference to a single css file in the "./css" folder.
@@ -79,10 +80,29 @@ For more examples refrence content files in "./docntent" folder.
 ## Various scripts info
  - Most of the Documentation of Each PHP Script is present inside them.
 > **index.php** is the main site template.
-> **dynamicPageLoader.php** this script loads contents files from "/dcontent/"  folder.
-> **site_var.php** contains the main variables like homepage-content-file, domain-name, dynamic-content-folder .
-> **sitemap.php** generates a sitemap dynamically & automatically.
-> The **.htaccess** file in the root folder is responsiblefor the clean SEO friendly Urls.
-***
 
+> **dynamicPageLoader.php** this script loads contents files from "/dcontent/"  folder.
+
+> **site_var.php** contains the main variables like homepage-content-file, domain-name, dynamic-content-folder .
+
+> **sitemap.php** generates a sitemap dynamically & automatically.
+
+> The **.htaccess** file in the root folder is responsiblefor the clean SEO friendly Urls.
+
+***
+## Special Features
+ - Content files and scripts cannot be directly accessed by website users
+ - Easy flat File CMS for Blogs of pages upto 10.
+ - Automatic SiteMap generation
+ - Google webmasters verification code in index.php page
+ - 
+
+***
+## Posible Features for Future
+ - Automatic navigation generation
+ - A user interface to manage the content files
+ - Hierarchial page display
+ - Addition off external css & javascript files
+
+***
 
