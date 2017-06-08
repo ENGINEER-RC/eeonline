@@ -3,6 +3,7 @@
 ***
 ## Introduction
  This Repository is a replication of the contents on the Empire Earth Downloads Website.
+ 
  The intention of this website is to get old empire earth players to play this game again
 
 #### To achieve this
@@ -18,5 +19,6 @@
  - Least 3rd part party javascripts must be use, only from trusted vendors. ( e.g google translate )
  - Any links that are added to the web site must not contain redirects.
  - Any download links added to the website must not be uploaded on servers which ask you to view ads or pay to download.
- - 
+
 ***
+
