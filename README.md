@@ -97,7 +97,7 @@ For more examples refrence content files in "./docntent" folder.
  - Google webmasters verification code in index.php page
 
 ***
-## Posible Features for Future
+## Possible Features for Future
  - Automatic navigation generation
  - A user interface to manage the content files
  - Hierarchial page display
