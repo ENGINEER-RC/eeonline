@@ -17,6 +17,7 @@
  ***
 ## Warning
 > Do not use the content of This website on your server since Google will reduce the page rank of the domain due to content replication.
+
 > Instead feel free to use the codes provided through the PHP scripts as a template.
 
 ***
@@ -31,7 +32,9 @@
 ## Documentation
 #### Prerequisites
 >Unpak all the contents of the /eeonline into the root folder of Apache-PHP based client.
+
 >Use [Xampp](https://www.apachefriends.org) for people Running on Windows OS. 
+
 >Make changes locally and test your edits and then send me Pull requests.
 
 #### Adding new Pages
@@ -51,6 +54,7 @@
  - Everything between the curly braces is JSON.
 >The JSON data is important metadata for Search engine crawlers to index the file 
 >Also to create an impression while sharing the pages on Social Media
+
  - **image** is the reference to the image that will be displayed when your page is shared on Facebook.
  - **css** it is the reference to a single css file in the "./css" folder.
  - **js** it is the reference to a single css file in the "./javascript" folder.
@@ -70,7 +74,9 @@ For more examples refrence content files in "./docntent" folder.
 	 <br>&nbsp;<br>&nbsp;<br>&nbsp;
   </nav>
   ```
-### Various scripts info
+
+***
+## Various scripts info
  - Most of the Documentation of Each PHP Script is present inside them.
 > **index.php** is the main site template.
 > **dynamicPageLoader.php** this script loads contents files from "/dcontent/"  folder.
