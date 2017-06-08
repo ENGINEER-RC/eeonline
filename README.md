@@ -2,7 +2,7 @@
 ##### Website: [ee.theroyalchampions.in](http://ee.theroyalchampions.in)
 ***
 ## Introduction
- This Repository is a replication of the contents on the Empire Earth Downloads Website.
+ This Repository is a replication of the contents on the Empire Earth downloads website.
  
  The intention of this website is to get old empire earth players to play this game again.
  
@@ -38,7 +38,7 @@
 >Make changes locally and test your edits and then send me Pull requests.
 
 #### Adding new Pages
- - Adding New pages is a a little diffcult for beginners but the system may improve overtime.
+ - Adding new pages is a a little diffcult for beginners but the system may improve overtime.
  - make a .html file and give it an SEO friendly Url Such as **read-this-immediately.html** 
 ```
 {
@@ -95,7 +95,6 @@ For more examples refrence content files in "./docntent" folder.
  - Easy flat File CMS for Blogs of pages upto 10.
  - Automatic SiteMap generation
  - Google webmasters verification code in index.php page
- - 
 
 ***
 ## Posible Features for Future
