@@ -35,92 +35,110 @@ $bdata=writeHead("url");
 	    * Also the image displayed for Facebook sharing aka (og:image)
 	    */
 	  ?>
-	  
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <!-- This is the main css file of the website -->
-      <link href="./css/style.css?vers4.0" rel="stylesheet" type="text/css">
+	  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link href="./css/style.css?vers3.0" rel="stylesheet" type="text/css">
+		<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+				document.getElementById("myBtn").style.display = "block";
+			} else {
+				document.getElementById("myBtn").style.display = "none";
+			}
+		}
+		
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+			document.documentElement.scrollTop = 0; // For IE and Firefox
+		}</script>
 	  
 	  <!-- This is script prevents the site from opening in a frame -->
 	  <script>	  if( window!= window.top ) {top.location.href = location.href;}</script>
    </head>
    <body>
-      <div id="beast">
+   <button class="w3-round w3-xlarge w3-card-2 w3-btn gtp" onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+      <div id="beast" class="w3-content w3-card-4 w3-round-large" style="background:rgba(255,255,255,0.7);">
 		 
 		 <!-- Static header must be filled manually -->
-         <header>
-            <div id="banner"><a href="./"><div id="banner-main" ></div></a>
-			<div id="banner-clan" ></div>
+         <header class="w3-teal" style="border-radius:8px 8px 0px 0px;">
+            <div id="banner" class="w3-bar" style="border-radius:8px 8px 0px 0px;">
+				<a href="./">
+					<img class="w3-bar-item w3-section w3-mobile" src="https://s27.postimg.org/4c9blespv/haha.png" />
+				</a>
+				<div id="banner-clan" class="w3-bar-item w3-right w3-hide-small w3-hide-medium" ></div>
 			</div>
-            <nav id="main-nav">
-               <ul>
-                  <li><a href="./">Home</a></li>
-                  <li><a style="font-weight: bold;" href="./downloads.html">Downloads</a></li>
-                  <li><a href="http://www.theroyalchampions.in">RC Website</a></li>
-                  <li><a href="https://www.facebook.com/EmpireEarth1/">Facebook</a></li>
-                  <li><a href="http://save-ee.com">Save-EE</a></li>
-                  <li style="border: medium none ;"><a href="http://rcpatch.blogspot.com">RC 2.2 Patch</a></li>
-               </ul>
-			   <br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;
-            </nav>
+
+            <nav class="w3-bar w3-padding">
+			
+                  <a class="w3-button w3-mobile w3-bar-item" href="./">Home</a>
+                  <a class="w3-button w3-mobile w3-bar-item" href="./downloads.html"><b>Downloads</b></a>
+                  <a class="w3-button w3-mobile w3-bar-item" href="https://www.facebook.com/EmpireEarth1/">Facebook Page</a>
+				  <a class="w3-button w3-mobile w3-bar-item" href="http://www.theroyalchampions.in">Clan Website</a>
+				  
+				<!-- Google Translate for Users who don't speak english  -->
+				<div class="w3-button w3-mobile w3-bar-item w3-right" id="google_translate_element" style="padding:6px" ></div>
+				<!-- Google Translate for Users who don't speak english  -->
+				<script type="text/javascript">
+				function googleTranslateElementInit() {
+					new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,de,en,es,fr,it,nl,pt,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+				}
+				</script>
+				<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            
+			</nav>
          </header>
 		 
 		 <!-- Main Body of the Webpage -->
-            <div class="mid-wraper-top">
-				<div class="right-container">
-				
-				
-                  <nav class="right-container-top">
-                     <h3>Site <span class="yellow-heading">Menu</span></h3>
-                     <ul>
-                        <li><a href="./stop-gameranger-ads.html">Block Gameranger Ads</a></li>
-                        <li><a href="./civis-hotkeys.html">Civilizations & Hotkeys</a></li>
-                        <li><a href="./old-games.html">Download Old PC games</a></li>
-                     </ul>
-					 <br>&nbsp;<br>&nbsp;<br>&nbsp;
-                  </nav>
+            <div class="w3-responsive">
+			
+			    <main class="w3-container w3-right w3-threequarter"><?php 
+			   echo $bdata[1];
+			   //Here on this Line the Main Content will be added from the html files located at "./dcontent/{LINK}.html"
+			   ?></main>	
+			
+			
+			
+				<div class="w3-card-4 w3-left w3-quarter w3-light-grey">
+                  <aside class="w3-center">
+                     <h3>Site <span class="w3-text-orange">Menu</span></h3>
+                     <div class="w3-bar-block w3-center">
+                        <a class="w3-button w3-round w3-mobile w3-bar-item" href="./stop-gameranger-ads.html">Block Gameranger Ads</a>
+                        <a class="w3-button w3-round w3-mobile w3-bar-item" href="./civis-hotkeys.html">Civilizations & Hotkeys</a>
+                        <a class="w3-button w3-round w3-mobile w3-bar-item" href="./old-games.html">Download Old PC games</a>
+                     </div>
+                  </aside>
+				  <hr>
 				  
-                  <div class="right-container-dwn" >
-                     <h4>Empire Earth News</h4>
+				  
+                  <div class="w3-container w3-teal w3-text-small w3-center" style="padding:0px;padding-bottom:8px;" >
+                     <h3 style="box-shadow: 0 6px 2px -4px #000;margin-bottom:0px;">Empire Earth <span class="w3-text-orange">News</span></h3>
 						<?php 
 							// Reads File from "./dcontent/news.htm" and prints it here as empire earth news 
 							readfile('./noaccess/news.htm'); 
 						?>
-                     <strong><a href="https://www.facebook.com/EmpireEarth1/" class="read-more-right">read more...</a></strong> 
+						<div class="w3-container" style="width:100%;height:10px;box-shadow: 0 -6px 2px -4px black;"></div>
+                     <a class="w3-button w3-right" onclick="show_more(this);" href="javascript:;" >read more</a>
+					 
+					 
                   </div>
                
 			   
 			   </div>
 			   
-               <main><?php 
-			   echo $bdata[1];
-			   //Here on this Line the Main Content will be added from the html files located at "./dcontent/{LINK}.html"
-			   ?></main>
+
             
 			
 			</div>
          
 		 <!-- Static footer must be filled manually -->
-		 <footer>
-            <nav class="footer-side">
-                  <a href="./">Home</a>
-                  <a href="./downloads.html">Downloads</a>
-                  <a href="http://www.theroyalchampions.in">Main Website</a>
-                  <a href="https://www.facebook.com/EmpireEarth1/">Facebook</a>
-                  <a href="http://save-ee.com">Save-EE</a>
-                  <a href="http://rcpatch.blogspot.com">RC Patch</a>
-            </nav>
-			
-			
-			<!-- Google Translate for Users who don't speak english  -->
-			<div id="google_translate_element" style="float:left;"></div>
-			<script type="text/javascript">
-			function googleTranslateElementInit() {
-				new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,de,en,es,fr,it,nl,pt,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-			}
-			</script>
-			<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-            
-			
-			<div class="footer-right">www.TheRoyalChampions.in&nbsp;&copy; Copyright <?php echo date("Y"); ?>.</div>
+		 <footer class="w3-container w3-teal w3-center w3-padding-16" style="border-radius:0px 0px 8px 8px;">
+			www.TheRoyalChampions.in &copy;&nbsp;Copyright <?php echo date("Y"); ?>.
          </footer>
       </div>
    </body>
