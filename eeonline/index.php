@@ -108,7 +108,7 @@ $bdata=writeHead("url");
                   </aside>
 				  <hr>
 				  
-				  
+				   <!--googleoff: index-->
                   <div class="w3-container w3-teal w3-text-small w3-center w3-hide-small w3-hide-medium" style="padding:0px;padding-bottom:8px;" >
                      <h3 style="box-shadow: 0 6px 2px -4px #000;margin-bottom:0px;">Empire Earth <span class="w3-text-orange">News</span></h3>
 						<?php 
@@ -120,6 +120,7 @@ $bdata=writeHead("url");
 					 
 					 
                   </div>
+				   <!--googleon: index-->
                
 			   
 			   </div>
