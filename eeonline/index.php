@@ -94,17 +94,10 @@ $bdata=writeHead("url");
 			</nav>
          </header>
 		 
-		 <!-- Main Body of the Webpage -->
+		  <!-- Main Body of the Webpage -->
             <div class="w3-responsive">
 			
-			    <main class="w3-container w3-right w3-threequarter"><?php 
-			   echo $bdata[1];
-			   //Here on this Line the Main Content will be added from the html files located at "./dcontent/{LINK}.html"
-			   ?></main>	
-			
-			
-			
-				<div class="w3-card-4 w3-left w3-quarter w3-light-grey">
+		 		<div class="w3-card-4 w3-quarter w3-light-grey">
                   <aside class="w3-center">
                      <h3>Site <span class="w3-text-orange">Menu</span></h3>
                      <div class="w3-bar-block w3-center">
@@ -116,7 +109,7 @@ $bdata=writeHead("url");
 				  <hr>
 				  
 				  
-                  <div class="w3-container w3-teal w3-text-small w3-center" style="padding:0px;padding-bottom:8px;" >
+                  <div class="w3-container w3-teal w3-text-small w3-center w3-hide-small w3-hide-medium" style="padding:0px;padding-bottom:8px;" >
                      <h3 style="box-shadow: 0 6px 2px -4px #000;margin-bottom:0px;">Empire Earth <span class="w3-text-orange">News</span></h3>
 						<?php 
 							// Reads File from "./dcontent/news.htm" and prints it here as empire earth news 
@@ -131,6 +124,16 @@ $bdata=writeHead("url");
 			   
 			   </div>
 			   
+		
+			
+			    <main class="w3-container w3-threequarter"><?php 
+			   echo $bdata[1];
+			   //Here on this Line the Main Content will be added from the html files located at "./dcontent/{LINK}.html"
+			   ?></main>	
+			
+			
+			
+
 
             
 			
